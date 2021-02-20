@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="website_arthur_jeuris:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>website_arthur_jeuris</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="website_arthur_jeuris-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="website_arthur_jeuris:war exploded" />
+    </root>
+  </artifact>
+</component>

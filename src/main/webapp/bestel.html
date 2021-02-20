@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bestel</title>
+</head>
+
+<body>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bestel.html" class="current">Bestel</a></li>
+        <li><a href="overzicht.html">Overzicht</a></li>
+    </ul>
+</nav>
+<header>
+    <h1>Bestellen</h1>
+</header>
+<main>
+    <form action="action_page.php" target="post">
+
+        <div>
+            <label for="merk">Merk</label>
+            <input type="text" id="merk" name="merk" placeholder="Titleist">
+        </div>
+
+        <div>
+            <label for="soort">Soort</label>
+            <input type="text" id="soort" name="soort" placeholder="Pro v1">
+        </div>
+
+        <div>
+            <label for="hoeveelheid">Hoeveelheid</label>
+            <input type="text" id="hoeveelheid" name="hoeveelheid" placeholder="12">
+        </div>
+
+
+        <div id="verzend">
+            <input type="submit" value="Verzend">
+        </div>
+    </form>
+
+    <p><img src="fotos/T2027S_01.png" alt="Doos golfballen"></p>
+</main>
+
+
+<footer id="footer">&copy;ArthurJeuris</footer>
+</body>
+
+</html>
